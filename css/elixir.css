@@ -86,35 +86,8 @@ a:hover {text-decoration: none;}
 }
 
 @font-face {
-    font-family: BitterRegular;
-    src: url(../fonts/Bitter-Regular.otf);
-}
-
-@font-face {
-    font-family: BitterItalic;
-    src: url(../fonts/Bitter-Italic.otf);
-}
-
-@font-face {
-    font-family: AlfaSlab;
-    src: url(../fonts/AlfaSlabOne-Regular.ttf);
-}
-
-@font-face {
     font-family: LobsterTwo;
     src: url(../fonts/LobsterTwo-Regular.otf);
-}
-@font-face {
-    font-family: LobsterTwoBold;
-    src: url(../fonts/LobsterTwo-Bold.otf);
-}
-@font-face {
-    font-family: LobsterTwoItalic;
-    src: url(../fonts/LobsterTwo-Italic.otf);
-}
-@font-face {
-    font-family: LobsterTwoBoldItalic;
-    src: url(../fonts/LobsterTwo-BoldItalic.otf);
 }
 
 @font-face {
@@ -122,10 +95,6 @@ a:hover {text-decoration: none;}
     src: url(../fonts/Montserrat-Regular.ttf);
 }
 
-@font-face {
-    font-family: MontserratBold;
-    src: url(../fonts/Montserrat-Bold.ttf);
-}
 
 @font-face {
     font-family: AlegreyaSansLight;
@@ -373,7 +342,18 @@ a:hover {text-decoration: none;}
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
-
+@media only screen and (max-width: 600px) {
+	.bonsai {
+		display: inline-block;
+		float: left;
+		width: 290px;
+		height: 50px;
+		/* background: url("../images/logo1.png") no-repeat; */
+		-webkit-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+  }
 #header {
 	position: absolute;
 	top:0px;
@@ -1194,6 +1174,25 @@ section.timetable h2.section-title:before, section.timetable h2.section-title:af
 	color: #D1BC87;
 	vertical-align: text-bottom;
 }
+
+@media only screen and (max-width: 600px) {
+	.menu-title {
+		color: #000000;
+		font-style: italic;
+		margin-bottom: 15px;
+		font-family: 'Adieu';
+		font-size: 95px;
+		line-height: 48px;
+		display: flex;
+		margin-left: 0%;
+	}
+	.menu-title:before, .menu-title:after {
+		content:url("../images/header_decorator.png");
+		margin: 14px;
+		color: #D1BC87;
+		vertical-align: text-bottom;
+	}
+  }
 
 section.timetable .section-subtitle {
 	color: #dd9701;
