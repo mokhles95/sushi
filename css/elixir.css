@@ -1104,7 +1104,7 @@ section.dark textarea{
    ============================== */
 
 section.timetable {
-	background-image: url("../images/parallax/005.jpg");
+	background-image: url("../images/parallax/opening_hours.jpg");
 
 	padding-top: 30px;
 	padding-bottom: 40px;
@@ -1184,7 +1184,7 @@ section.timetable h2.section-title:before, section.timetable h2.section-title:af
 		font-size: 95px;
 		line-height: 48px;
 		display: flex;
-		margin-left: 0%;
+		margin-left: -10%;
 	}
 	.menu-title:before, .menu-title:after {
 		content:url("../images/header_decorator.png");
@@ -2501,7 +2501,7 @@ section.timetable {
 }
 
 section.timetable .days {
-	margin-top: 20px;
+	margin-top: -40px;
 }
 
 section.timetable .number a{
